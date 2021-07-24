@@ -28,9 +28,13 @@ export default function SkillCard({ title }: IProps): JSX.Element {
       : "";
 
   return (
-    <div className="md:w-60 my-4 w-full text-gray-500 flex md:flex-col flex-row">
-      <img src={image} alt="" />
-      <div className="flex flex-col p-4 ">
+    <div className="lg:w-60 items-start align-middle my-4 w-full text-gray-500 flex  flex-col ">
+      <img
+        className="w-40 px-4 lg:px-0 h-40 lg:w-60 lg:h-60"
+        src={image}
+        alt=""
+      />
+      <div className="flex flex-col px-4 lg:px-0">
         <h1 className="text-gray-700 my-2">{title}</h1>
         <div className="">{body}</div>
       </div>

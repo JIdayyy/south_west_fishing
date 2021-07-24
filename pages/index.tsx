@@ -16,14 +16,14 @@ export default function Home(): JSX.Element {
           <img src="/images/carroussel/img2.png" alt="carroussel" />
         </div>
       </Carousel>
-      <div className="w-full md:px-60">
+      <div className="w-full lg:px-60">
         <ArrianeString />
         <Description />
       </div>
       <div className="relative flex items-center font-serif justify-center align-middle text-white">
         <Image src={"/images/river_bg.png"} width={4000} height={800} />
         <div className="absolute flex flex-col">
-          <span className="text-4xl font-light text-center w-full">
+          <span className="lg:text-4xl text-xs font-light text-center w-full">
             &quot;Convivialité partage et aventure !&quot;
           </span>
           <span className="w-full text-center ">
