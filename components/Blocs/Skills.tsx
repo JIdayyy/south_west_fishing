@@ -8,7 +8,7 @@ export default function Skills(): JSX.Element {
         <h1 className="w-full text-center">MES TECHNIQUES DE PÊCHE</h1>
         <span className="bg-gray-200 w-full h-5"></span>
       </div>
-      <div className="w-full px-60 flex  justify-between">
+      <div className="w-full md:px-60 flex md:flex-row flex-col  justify-between">
         <SkillCard title="Float tube" />
         <SkillCard title="Barque" />
         <SkillCard title="Salmonidés" />

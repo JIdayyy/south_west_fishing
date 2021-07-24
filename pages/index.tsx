@@ -16,7 +16,7 @@ export default function Home(): JSX.Element {
           <img src="/images/carroussel/img2.png" alt="carroussel" />
         </div>
       </Carousel>
-      <div className="w-full px-60">
+      <div className="w-full md:px-60">
         <ArrianeString />
         <Description />
       </div>
