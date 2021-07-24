@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 export default function NavTab(): JSX.Element {
   const [selected, setselected] = useState<selected>("ACCUEIL");
   const router = useRouter();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleClick = (e: any) => {
     if (e.target.value === "ACCUEIL") {
       router.push(`/`);

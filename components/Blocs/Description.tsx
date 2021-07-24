@@ -5,7 +5,7 @@ export default function Description(): JSX.Element {
         Bienvennue sur le site officiel South West Fishing !
       </h1>
       <p className="text-left w-full text-base font-light my-2">
-        Qui suis-je ? Je m&apos;appelle Bazard Mathieu J&apos;ai 33 ans. Pêcheur
+        Qui suis-je ? Je m&apos;appelle Bazard Mathieu J&apos;ai 33 ans. Pêcheur
         depuis l&apos;âge de 6 ans, grâce à père et mon grand père.je suis
         également impliqué dans une association de pêche depuis plusieurs
         années. Ma participation à l&apos;école de pêche de l&apos;aappma
