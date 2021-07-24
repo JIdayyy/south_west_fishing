@@ -7,7 +7,7 @@ import Image from "next/image";
 import Skills from "../components/Blocs/Skills";
 export default function Home(): JSX.Element {
   return (
-    <div className="w-full  relative py-20 z-10">
+    <div className="w-full  relative py-14 z-10">
       <Carousel className="z-10" showThumbs={false}>
         <div>
           <img src="/images/carroussel/img1.png" alt="carroussel" />

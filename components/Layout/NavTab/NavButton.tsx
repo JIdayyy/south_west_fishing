@@ -1,5 +1,5 @@
 const SpanTab = (
-  <span className="bg-green-400 absolute transform translate-y-10  w-12 h-3"></span>
+  <span className="bg-green-400 absolute transform translate-y-9  w-12 h-2"></span>
 );
 
 interface IProps {
